@@ -1,0 +1,10 @@
+genome Mja
+trackDb Mja/trackDb.txt
+groups groups.txt
+description Mja
+twoBitPath Mja/Mja.2bit
+organism Methanocaldococcus jannaschii
+defaultPos NC_000909.1:46880-50000
+orderKey 4700
+scientificName Methanocaldococcus jannaschii
+htmlPath Mja/description.html
