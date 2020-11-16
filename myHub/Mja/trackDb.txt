@@ -241,6 +241,44 @@ color 253,172,63
 bigDataUrl bbi/Mj1647.Mja.r2.logNorm.bw
 
 
+track Input
+group ChIP-seq
+container multiWig
+shortLabel Input
+longLabel Input ChIP-seq
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 90
+configurable on
+autoScale on
+maxHeightPixels 50
+
+track Input_r1
+longLabel Input replicate 1
+shortLabel Input r1
+group ChIP-seq
+parent Input
+visibility pack
+type bigWig
+color 80,80,80
+bigDataUrl bbi/inp.Mja.r1.RPKM.bw
+
+track Input_r2
+longLabel Input replicate 2
+shortLabel Input r2
+group ChIP-seq
+parent Input
+visibility pack
+type bigWig
+color 150,150,150
+bigDataUrl bbi/inp.Mja.r2.RPKM.bw
+
+
 
 track stat3U
 group MNase-seq
