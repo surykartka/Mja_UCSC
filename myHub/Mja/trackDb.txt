@@ -26,7 +26,7 @@ group genes
 priority 100
 visibility dense
 itemRgb On
-type bigBed 6
+type bigWig
 bigDataUrl bbi/Mja_GC_30.bw
 
 track Rpo47
