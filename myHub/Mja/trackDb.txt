@@ -3,7 +3,7 @@ longLabel NCBI gene annotations
 shortLabel Genes NCBI
 group genes
 priority 100
-visibility hide
+visibility dense
 itemRgb On
 type bigBed 9 +
 bigDataUrl bbi/genes.bb
@@ -14,11 +14,20 @@ longLabel Kathy primary TSS
 shortLabel primary TSS
 group genes
 priority 100
-visibility hide
+visibility dense
 itemRgb On
 type bigBed 6
 bigDataUrl bbi/primary_TSS.bb
 
+track GC_content
+longLabel GC content 30bp window
+shortLabel GC
+group genes
+priority 100
+visibility dense
+itemRgb On
+type bigBed 6
+bigDataUrl bbi/Mja_GC_30.bw
 
 track Rpo47
 group ChIP-seq
