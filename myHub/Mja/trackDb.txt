@@ -203,3 +203,79 @@ color 200,200,200
 bigDataUrl bbi/old.spt45.bw
 
 
+track Mj1647
+group ChIP-seq
+container multiWig
+shortLabel Mj1647
+longLabel Mj1647 ChIP-seq
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 90
+configurable on
+autoScale on
+maxHeightPixels 50
+
+track Mj1647_r1
+longLabel Mj1647 replicate 1
+shortLabel Mj1647 r1
+group ChIP-seq
+parent Mj1647
+visibility pack
+type bigWig
+color 253,154,8
+bigDataUrl bbi/Mj1647.Mja.r1.logNorm.bw
+
+track Mj1647_r2
+longLabel Mj1647 replicate 2
+shortLabel Mj1647 r2
+group ChIP-seq
+parent Mj1647
+visibility pack
+type bigWig
+color 253,172,63
+bigDataUrl bbi/Mj1647.Mja.r2.logNorm.bw
+
+
+
+track stat3U
+group MNase-seq
+container multiWig
+shortLabel stat3U
+longLabel stat3U MNase-seq
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 90
+configurable on
+autoScale on
+maxHeightPixels 50
+
+track stat3U_60
+longLabel stat3U 60bp fragments
+shortLabel stat3U 60
+group MNase-seq
+parent stat3U
+visibility pack
+type bigWig
+color 251,76,55
+bigDataUrl bbi/stat3U_60_MNase_smoothLength5_RPKM.bw
+
+track stat3U_120
+longLabel stat3U 120bp fragments
+shortLabel stat3U 120
+group MNase-seq
+parent stat3U
+visibility pack
+type bigWig
+color 238,106,91
+bigDataUrl bbi/stat3U_120_MNase_smoothLength5_RPKM.bw
+
