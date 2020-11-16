@@ -131,7 +131,7 @@ group ChIP-seq
 parent TBP
 visibility pack
 type bigWig
-color 30,135,122
+color 84,59,59
 bigDataUrl bbi/TBP.Mja.r1.logNorm.bw
 
 track TBP_r2
@@ -141,7 +141,7 @@ group ChIP-seq
 parent TBP
 visibility pack
 type bigWig
-color 124,190,181
+color 124,105,105
 bigDataUrl bbi/TBP.Mja.r2.logNorm.bw
 
 track TBP_old
