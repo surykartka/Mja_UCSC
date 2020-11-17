@@ -114,6 +114,16 @@ type bigWig
 color 30,135,122
 bigDataUrl bbi/TFB.Mja.r1.logNorm.bw
 
+track TFB_r1_GC
+longLabel TFB replicate 1 GC-corrected
+shortLabel TFB r1 GC
+group ChIP-seq
+parent TFB
+visibility pack
+type bigWig
+color 250,10,10
+bigDataUrl bbi/TFB.Mja.r1.GCcorrected.logNorm.bw
+
 track TFB_r2
 longLabel TFB replicate 2
 shortLabel TFB r2
@@ -163,6 +173,16 @@ type bigWig
 color 84,59,59
 bigDataUrl bbi/TBP.Mja.r1.logNorm.bw
 
+track TBP_r1_GC
+longLabel TBP replicate 1 GC-corrected
+shortLabel TBP r1 GC
+group ChIP-seq
+parent TBP
+visibility pack
+type bigWig
+color 84,59,59
+bigDataUrl bbi/TBP.Mja.r1.GCcorrected.logNorm.bw
+
 track TBP_r2
 longLabel TBP replicate 2
 shortLabel TBP r2
@@ -211,6 +231,16 @@ type bigWig
 color 52,36,110
 bigDataUrl bbi/Spt45.Mja.r1.logNorm.bw
 
+track Spt45_r1_GC
+longLabel Spt4/5 replicate 1 GC-corrected
+shortLabel Spt45 r1 GC
+group ChIP-seq
+parent Spt45
+visibility pack
+type bigWig
+color 250,10,10
+bigDataUrl bbi/Spt45.Mja.r1.GCcorrected.logNorm.bw
+
 track Spt45_r2
 longLabel Spt4/5 replicate 2
 shortLabel Spt45 r2
@@ -258,6 +288,16 @@ visibility pack
 type bigWig
 color 253,154,8
 bigDataUrl bbi/Mj1647.Mja.r1.logNorm.bw
+
+track Mj1647_r1_GC
+longLabel Mj1647 replicate 1 GC-corrected
+shortLabel Mj1647 r1 GC
+group ChIP-seq
+parent Mj1647
+visibility pack
+type bigWig
+color 250,10,10
+bigDataUrl bbi/Mj1647.Mja.r1.GCcorrected.logNorm.bw
 
 track Mj1647_r2
 longLabel Mj1647 replicate 2
