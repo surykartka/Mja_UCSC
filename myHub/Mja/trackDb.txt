@@ -359,6 +359,16 @@ type bigWig
 color 150,150,150
 bigDataUrl bbi/inp.Mja.r2.RPKM.bw
 
+track Input_r2_GC
+longLabel Input replicate 2 GC-corrected
+shortLabel Input r2 GC
+group ChIP-seq
+parent Input
+visibility pack
+type bigWig
+color 250,50,50
+bigDataUrl bbi/inp.Mja.r2.GCcorrected.RPKM.bw
+
 
 
 track stat3U
