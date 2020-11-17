@@ -56,6 +56,16 @@ type bigWig
 color 10,10,10
 bigDataUrl bbi/Rpo47.Mja.r1.logNorm.bw
 
+track Rpo47_r1_GC
+longLabel Rpo47 replicate 1 GC-corrected
+shortLabel Rpo47 r1 GC
+group ChIP-seq
+parent Rpo47
+visibility pack
+type bigWig
+color 250,10,10
+bigDataUrl bbi/Rpo47.Mja.r1.GCcorrected.logNorm.bw
+
 track Rpo47_r2
 longLabel Rpo47 replicate 2
 shortLabel Rpo47 r2
@@ -295,7 +305,7 @@ group ChIP-seq
 parent Input
 visibility pack
 type bigWig
-color 20,200,200
+color 250,10,10
 bigDataUrl bbi/inp.Mja.r1.GCcorrected.RPKM.bw
 
 
