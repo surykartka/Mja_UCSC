@@ -29,6 +29,16 @@ itemRgb On
 type bigWig
 bigDataUrl bbi/Mja_GC_30.bw
 
+track RNA-seq_ave
+longLabel RNA-seq averaged
+shortLabel RNA-seq_ave
+group RNA-seq
+priority 100
+visibility dense
+itemRgb On
+type bigWig
+bigDataUrl bbi/Mja_RNAseq_ave.bw
+
 track Rpo47
 group ChIP-seq
 container multiWig
